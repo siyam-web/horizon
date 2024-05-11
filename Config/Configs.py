@@ -27,7 +27,7 @@ class VConfigs(Singleton):
             if self.BOT_PREFIX == 'Your_Wanted_Prefix_For_Vulkan':
                 self.BOT_PREFIX = '!'
             
-            self.BOT_TOKEN = os.getenv('BOT_TOKEN')
+            self.BOT_TOKEN = "MTIzODgxNzE3Nzc5MzIwNDI1NQ.GLtEJ1.oDTF11u5P4Qnrs8cCSZAc_xb_9Hx_Y5SbuSs4g"
             if self.BOT_TOKEN is None:
                 raise ValueError('No token was given')
 
